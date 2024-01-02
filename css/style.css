@@ -24,3 +24,7 @@ td{
     border-bottom: 1px #ccc dashed;
     padding: 3px 0;
 }
+
+li{
+    text-align: left;
+}
