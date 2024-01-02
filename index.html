@@ -7,66 +7,39 @@
     </head>
     <body>
     <div id="container">
-    <h1>Football Stats</h1>
-        <table>
-            <tr>
-                <th>Football Club</th>
-                <th>Game Wins</th>
-                <th>Game Losses</th>
-                <th>Game Ties</th>
-            </tr>
-            <tr>
-                <td>Chelsea</td>
-                <td>12</td>
-                <td>5</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>Arsenal</td>
-                <td>12</td>
-                <td>4</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>Liverpool</td>
-                <td>13</td>
-                <td>1</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>Man United</td>
-                <td>13</td>
-                <td>4</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>Man City</td>
-                <td>13</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
-
-        </table>
-        <br />
-        <br />
-        <h1>League Stats</h1>
-        <ol>
-            <li>Chelsea</li>
-            <li>Liverpool</li>
-            <li>Man United</li>
-            <li>Arsenal</li>
-            <li>Man City</li>
-        </ol>
-        <br />
-        <br />
-        <h1>Other Stats</h1>
-        <ul>
-            <li>Chelsea</li>
-            <li>Liverpool</li>
-            <li>Man United</li>
-            <li>Arsenal</li>
-            <li>Man City</li>
-        </ul>
+        <h1>Registration Form</h1>
+        <form method="post" action="process.php" >
+            <ul>
+                <li>
+                    <label>First Name: </label>
+                    <input name="first_name" type="text" />
+                    <br />
+                    <label>Last Name: </label>
+                    <input name="last_name" type="text" />
+                    <br />
+                    <label>Email: </label>
+                    <input name="email" type="email" />
+                    <br />
+                    <label>Place of Birth: </label>
+                    <select name="Continent">
+                        <option value="Europe">Europe</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Asia">Asia</option>
+                    </select>
+                    <br />
+                    <label>
+                    <input type="radio" name="gender" value="Male" />Male
+                    &nbsp; 
+                    <input type="radio" name="gender" value="Female" /> Female 
+                    </label>
+                    <br />
+                    <label>Message: </label>
+                    <textarea name="message" type="text"></textarea>
+                    <br /><br />
+                    <input type="submit" value="Register" />
+                </li>
+            </ul>
+        </form>
     </div>
     </body>
 </html>
