@@ -3,43 +3,95 @@
     <head>
         <title>Cavsteek's Page</title>
         <link rel="stylesheet" href="./css/style.css" type="text/css" />
-    
+        <link rel="stylesheet" href="./css/reset.css" type="text/css" />
     </head>
     <body>
     <div id="container">
-        <h1>Registration Form</h1>
-        <form method="post" action="process.php" >
+        <div id="header">
+            <div id="name">
+                <h1>Uzochukwu Ikemdinachi</h1>
+                <h3>Web Developer &amp; Designer</h3>
+            </div>
+
+            <div id="contact">
+                <strong>Email: </strong>uzochukachi@gmail.com<br />
+                <strong>Phone:</strong> (+234)7041500989
+            </div>
+        </div>
+
+        <div class="clr"></div>
+
+        <div id="profile" class="row">
+            <h2 class="left"Profile></h2>
+            <p>Enthusiastic and dedicated professional with a passion for Software Engineering. </p>
+        </div>
+
+        <div class="clr"></div>
+
+        <div id="skills" class="row">
+            <h2 class="left">Skills</h2>
             <ul>
                 <li>
-                    <label>First Name: </label>
-                    <input name="first_name" type="text" />
-                    <br />
-                    <label>Last Name: </label>
-                    <input name="last_name" type="text" />
-                    <br />
-                    <label>Email: </label>
-                    <input name="email" type="email" />
-                    <br />
-                    <label>Place of Birth: </label>
-                    <select name="Continent">
-                        <option value="Europe">Europe</option>
-                        <option value="Africa">Africa</option>
-                        <option value="Asia">Asia</option>
-                    </select>
-                    <br />
-                    <label>
-                    <input type="radio" name="gender" value="Male" />Male
-                    &nbsp; 
-                    <input type="radio" name="gender" value="Female" /> Female 
-                    </label>
-                    <br />
-                    <label>Message: </label>
-                    <textarea name="message" type="text"></textarea>
-                    <br /><br />
-                    <input type="submit" value="Register" />
+                    <h3>Gentle and Kind</h3>
+                </li>
+                <li>
+                    <h3>Passionate</h3>
+                </li>
+                <li>
+                    <h3>Creative</h3>
+                </li>
+                <li>
+                    <h3>Quality Leadership Traits</h3>
                 </li>
             </ul>
-        </form>
+        </div>
+
+        <div class="clr"></div>
+        
+        <div id="technical" class="row">
+            <h2 class="left">Technical</h2>
+            <table border="none">
+                <tr><td>Web Design</td><td>CSS</td><td>Vue.Js</td><td>Html</td><td>Javascript</td></tr>
+                <tr><td>Web Developer</td><td>Java</td><td>Go</td></tr>
+                <tr><td>CyberSecurity Enthusiast</td><td>Linux</td></tr>
+                <tr><td>IoT Enthusiast</td><td>Big Data Engineer</td></tr>
+            </table>
+        </div>
+
+        <div class="clr"></div>
+
+        <div id="experience" class="row">
+            <h2 class="left">Experience</h2>
+            <div>
+                <h3>Microsoft</h3>
+                <h4>Intern</h4>
+                <p>Worked as an Intern</p>
+            </div>
+            <div>
+                <h3>Huawei</h3>
+                <h4>Intern</h4>
+                <p>Worked as an Intern</p>
+            </div>
+        </div>
+        
+        <div class="clr"></div>
+
+        <div id="education" class="row">
+            <h2 class="left">Education</h2>
+            <div>
+                <h3>Babcock University, Ilishan-remo, Ogun</h3>
+                <p>Bachelors of Science, Software Engineering</p>
+            </div>
+            <div>
+                <h3>Faith Academy Goshen, Nasarawa</h3>
+                <p>Secondary School</p>
+            </div>
+        </div>
+        
+    </div> <!--container-->
+
+    <div id="footer">
+        Demo Resume &copy; 2024, Cavsteek
     </div>
     </body>
 </html>
