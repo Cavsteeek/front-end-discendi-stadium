@@ -1,125 +1,147 @@
 body{
-	background: url(../images/texture.jpg) repeat;
-	font-family:Gerogia;
-	font-size:15px;
-}
+    background: url(../images/texture.jpg) repeat;
+    font-family:Georgia;
+    font-size: 15px;
+} 
 
-strong{font-weight:bold;}
-.clr{clear:both;}
+/* body {
+    background: linear-gradient(to right, #666 30%, burlywood 70%);
+    background-size: 200% 100%;
+    animation: colorChange 5s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -0% 0;
+    }
+  }
+*/
+
+strong{font-weight: bold;}
+.clr{clear: both;}
 
 h1{
-	font-size: 48px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
+    font-size: 86px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
-h3{
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-style:italic;
-	font-size:21px;
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 21px;
 }
 
 #container{
 	width:930px;
 	margin:50px auto 10px auto;
 	padding:20px 30px;
-	border-top:#666 solid 6px;
-	border-bottom:#666 solid 3px;
+	border-top:black solid 6px;
+	border-bottom:black solid 6px;
 	background:#f5f5f5;
 }
 
 #header{
 	padding:10px 0;
-	border-bottom:#ccc dotted 1px;
+	border-bottom:black dashed 5px;
 	overflow:hidden;
 }
 
 #header #name{
 	float:left;
+    font-size:20px;
 }
 
 #header #contact{
 	float:right;
+    font-size: 18px;
 }
 
 .row{
-	padding:30px 0;
+	padding:20px 0 10px;
 	font-size:20px;
 	overflow:hidden;
-	border-bottom:#ccc dotted 1px;
+	border-bottom:black solid 5px;
 }
 
-h2.left{
-	float:left;
-	width:140px;
-	font-style:italic;
+.lp{
+    font-size:20px;
+	overflow:hidden;
+    padding:20px 0 10px;
 }
 
 #profile p{
-	float:right;
-	width:700px
+    line-height: 1.6em;
+    font-size: 20px;
 }
 
+
 #skills ul{
-	float:right;
 	width:700px;
 }
 
 #skills ul li{
-	float:left;
 	width:180px;
 	padding:0 40px 0 0;
-	font-size:16px;
+	font-size:18px;
+    line-height:1.6em;
 }
 
 #technical table{
-	float:right;
 	width:700px
 }
 
 #technical table td{
-	width:100px;
-	border-bottom:#ccc solid 1px;
-	padding:5px;
+	padding:7px;
+    line-height:1.6em;
 }
 
 #experience div{
-	float:right;
 	width:700px;
-	border-bottom:#ccc solid 1px;
 	padding:10px 0;
 }
 
 #experience div h3,#education{
 	font-style:normal;
+	font-size:20px;
+	line-height:1.6em;
+}
+
+#experience div li{
+	font-style:oblique;
 	font-size:18px;
 	line-height:1.6em;
 }
 
-#experience div h4{
-	font-style:normal;
-	font-size:16px;
-	line-height:1.6em;
-}
-
 #experience div p{
-	font-size:15px;
+	font-size:18px;
 	line-height:1.6em;
 }
 
 #education div{
-	float:right;
 	width:700px;
 	padding:10px 0;
 }
 
 #education div h3{
+	font-style:oblique;
+	font-size:20px;
+	line-height:1.6em;
+}
+
+
+#education div p{
 	font-style:normal;
 	font-size:18px;
-	line-height:1.6em;
+	line-height:1.6em;   
 }
 
 #footer{
 	text-align:center;
 	margin-bottom:10px;
 }
+
